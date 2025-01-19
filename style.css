@@ -459,21 +459,22 @@ textarea::-webkit-scrollbar-thumb {
 
     /* Section Social */
     #social {
-        height: 105vh;
+        height: 115vh;
         width: 150%;
     }
     .social-container h2 {
-        margin-top: -7rem;
+        margin-top: -3rem;
         font-size: 60px;
     }
 
     .social-container a {
-        min-width: 180px;
-        min-height: 180px;
-        max-width: 180px;
-        max-height: 180px;
-        font-size: 40px;
+        min-width: 150px;
+        min-height: 150px;
+        max-width: 150px;
+        max-height: 150px;
+        font-size: 35px;
         margin-top: 5rem;
+        border-radius: 25px;
     }
 
     .social-container ul span {
@@ -481,7 +482,7 @@ textarea::-webkit-scrollbar-thumb {
     }
 
     .social-container p {
-        margin-top: 8rem;
+        margin-top: 6rem;
         font-size: 20px;
     }
 
