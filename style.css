@@ -412,7 +412,7 @@ textarea::-webkit-scrollbar-thumb {
 
     /* Section About */
     .about {
-        height: 140vh;
+        height: 130vh;
         width: 150%;
         display: grid;
     }
