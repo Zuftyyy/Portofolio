@@ -370,7 +370,7 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 
-@media only screen and (max-width: 600px) and (min-width: 420px) {
+@media only screen and (max-width: 800px) and (min-width: 370px) {
     header {
         padding: 15px 80px;
         padding-right: 1.5rem;
@@ -412,7 +412,7 @@ textarea::-webkit-scrollbar-thumb {
 
     /* Section About */
     .about {
-        height: 130vh;
+        height: 145vh;
         width: 150%;
         display: grid;
     }
@@ -426,7 +426,7 @@ textarea::-webkit-scrollbar-thumb {
 
     .about-container h2 {
         font-size: 50pt;
-        margin-top: -10rem;
+        margin-top: -8rem;
         text-align: center;
     }
 
@@ -459,7 +459,7 @@ textarea::-webkit-scrollbar-thumb {
 
     /* Section Social */
     #social {
-        height: 110vh;
+        height: 115vh;
         width: 150%;
     }
     .social-container h2 {
@@ -468,13 +468,14 @@ textarea::-webkit-scrollbar-thumb {
     }
 
     .social-container a {
-        min-width: 120px;
-        min-height: 120px;
-        max-width: 120px;
-        max-height: 120px;
-        font-size: 30px;
+        min-width: 150px;
+        min-height: 150px;
+        max-width: 150px;
+        max-height: 150px;
+        font-size: 35px;
         margin-top: 5rem;
-        border-radius: 23px;
+        margin-left: 7.3rem;
+        border-radius: 25px;
     }
 
     .social-container ul span {
