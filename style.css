@@ -208,6 +208,7 @@ button:hover {
     background-color: #414141;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .social-container h2 {
@@ -369,5 +370,167 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 
-@media (max-width: 991px) {
+@media (max-width: 1200px) {
+    header {
+        padding: 15px 80px;
+        padding-right: 1.5rem;
+    }
+
+    .logo {
+        font-size: 26px;
+        margin-left: -3rem;
+    }
+
+    .navbar a {
+        font-size: 14pt;
+        margin-left: 3rem;
+    }
+
+    .navbar a:last-child {
+        font-size: 14pt;
+        margin-right: 3rem;
+    }
+
+
+    /* Section Home */
+    #home {
+        height: 120vh;
+        width: 150%;
+    }
+
+    .home-container h1 {
+        font-size: 35pt;
+    }
+
+    .home-container p {
+        font-size: 13pt;
+    }
+
+    .home-container a {
+        font-size: 20px;
+    }
+
+    /* Section About */
+    .about {
+        height: 110vh;
+        width: 150%;
+        display: grid;
+    }
+
+    .about-img img {
+        min-width: 200px;
+        max-width: 200px;
+        margin-top: -3rem;
+        margin-left: 13rem;
+    }
+
+    .about-container h2 {
+        font-size: 50pt;
+        margin-top: -10rem;
+        text-align: center;
+    }
+
+    .about-container h5 {
+        font-size: 25pt;
+        text-align: center;
+    }
+
+    .about-container p {
+        font-size: 16pt;
+        width: 450px;
+        text-align: center;
+    }
+
+    button {
+        font-size: 9pt;
+        justify-content: center;
+        margin-left: 165px;
+    }
+
+    /* Section Skill */
+    #skill {
+        height: 120vh;
+        width: 150%;
+    }
+
+    #skill h2 {
+        font-size: 45px;
+    }
+
+    /* Section Social */
+    #social {
+        height: 105vh;
+        width: 150%;
+    }
+    .social-container h2 {
+        margin-top: -7rem;
+        font-size: 60px;
+    }
+
+    .social-container a {
+        min-width: 180px;
+        min-height: 180px;
+        max-width: 180px;
+        max-height: 180px;
+        font-size: 40px;
+        margin-top: 5rem;
+    }
+
+    .social-container ul span {
+        font-size: 23px;
+    }
+
+    .social-container p {
+        margin-top: 8rem;
+        font-size: 20px;
+    }
+
+    /* Section Contact */
+    #contact {
+        width: 150%;
+    }
+
+    .contact-container form {
+        width: 450px;
+        height: auto;
+        padding: 30px;
+    }
+
+    .contact-container form h1 {
+        font-size: 28px;
+    }
+
+    .contact-container form input,
+    .contact-container form textarea {
+        width: 310px;
+    }
+
+    .contact-container form input::placeholder {
+        font-size: 14px;
+    }
+
+    .contact-container form h4 {
+        font-size: 14px;
+        margin-left: 5rem;
+    }
+
+    .contact-container textarea {
+        font-size: 18px;
+        min-width: 300px;
+        max-width: 300px;
+    }
+
+    .contact-container #button {
+        font-size: 14pt;
+        padding: 10px 25px;
+    }
+
+    /* Footer */
+
+    .footer {
+        width: 150%;
+    }
+    .footer .copyright {
+        font-size: 16px;
+    }
 }
