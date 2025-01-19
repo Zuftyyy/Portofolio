@@ -370,7 +370,7 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 
-@media (max-width: 1200px) {
+@media only screen and (max-width: 600px) and (min-width: 420px) {
     header {
         padding: 15px 80px;
         padding-right: 1.5rem;
@@ -474,7 +474,6 @@ textarea::-webkit-scrollbar-thumb {
         max-height: 120px;
         font-size: 30px;
         margin-top: 5rem;
-        margin-left: 3rem;
         border-radius: 23px;
     }
 
