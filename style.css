@@ -459,7 +459,7 @@ textarea::-webkit-scrollbar-thumb {
 
     /* Section Social */
     #social {
-        height: 140vh;
+        height: 110vh;
         width: 150%;
     }
     .social-container h2 {
@@ -474,6 +474,7 @@ textarea::-webkit-scrollbar-thumb {
         max-height: 120px;
         font-size: 30px;
         margin-top: 5rem;
+        margin-left: 3rem;
         border-radius: 23px;
     }
 
