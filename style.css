@@ -443,6 +443,19 @@ textarea::-webkit-scrollbar-thumb {
     color: white;
 }
 
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #414141;
+    width: 50px;
+}
+
 
 @media only screen and (max-width: 800px) and (min-width: 370px) {
     header {
@@ -532,7 +545,7 @@ textarea::-webkit-scrollbar-thumb {
     }
 
     .skill-container {
-        width: 550px;
+        width: 520px;
         margin: auto;
     }
 
